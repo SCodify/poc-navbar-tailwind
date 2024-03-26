@@ -1,20 +1,20 @@
 @media screen and (max-width: 768px) {
   .menu {
-      flex-direction: column;
-      position: absolute;
-      top: 42px;
-      left: 0;
-      width: 100%;
-      overflow: hidden;
-      height: 0px;
-      transition: all 0.2s ease-out;
+    flex-direction: column;
+    position: absolute;
+    top: 42px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 0px;
+    transition: all 0.2s ease-out;
   }
-  
+
   .menu.show {
-      height: 200px;
+    height: 200px;
   }
-  
- .menu Link {
-      text-align: end;
+
+  .menu Link {
+    text-align: end;
   }
 }
