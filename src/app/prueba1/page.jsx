@@ -1,3 +1,7 @@
+export const metadata = {
+  title: 'SEO Title Prueba 1',
+  description: 'SEO Title Prueba 1',
+};
 
 export default function Prueba1Page() {
   return (
