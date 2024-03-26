@@ -20,7 +20,7 @@ export const Navbar = () => {
   }
 
   return (
-    <nav className="flex justify-between bg-sky-700 text-white p-2">
+    <nav className="flex justify-between bg-sky-700 text-white p-2 h-[41px]">
       <div>LOGO</div>
       <div onClick={handlerToggleMenu} className="hamburger-menu min-[768px]:hidden">
         <div className="w-[25px] h-[3px] bg-white m-1"></div>

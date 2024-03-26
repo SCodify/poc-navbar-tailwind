@@ -1,4 +1,11 @@
 .active-link {
-  background-color: white;
-  color: rgb(3 105 161);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .active-link {
+    background-color: white;
+    color: rgb(3 105 161);
+    font-weight: 400;
+  }
 }
